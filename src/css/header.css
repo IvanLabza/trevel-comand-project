@@ -1,0 +1,32 @@
+.head {
+padding-bottom: 61px;
+padding-top: 46px;
+background-color:bisque;
+border-bottom: 4px dotted gray ;
+}
+
+.head-nav {}
+
+.head-logo {
+position: absolute;
+}
+
+.head-list {
+display: flex;
+gap: 20px;
+justify-content: flex-end;
+}
+
+.head-list-element {}
+
+.head-list-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+color: var(--white);
+}
+
+.head-list-link:is(:hover,:focus,:active){
+color:var(--yellow) ;
+}
+
