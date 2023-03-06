@@ -1,14 +1,19 @@
 .head {
-padding-bottom: 61px;
-padding-top: 46px;
-background-color:bisque;
-border-bottom: 4px dotted gray ;
+margin: 0 auto;
+max-width: 1440px;
+padding-bottom: 39px;
+padding-top: 27px;
+border-bottom: 2px dashed gray ;
 }
 
-.head-nav {}
+.head-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .head-logo {
-position: absolute;
+
 }
 
 .head-list {
@@ -24,7 +29,11 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.2;
 color: var(--white);
+padding-top: 20px;
+padding-bottom: 20px;
 }
+
+
 
 .head-list-link:is(:hover,:focus,:active){
 color:var(--yellow) ;
