@@ -42,10 +42,14 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .bg{
- margin: 0 auto;
- max-width: 1440px;
-  background:  url(../img/hero-bg.png);
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: contain;
+margin: 0 auto;
+max-width: 1440px;
+background:  url(../img/hero-bg.png);
+background-position: center top;
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+body{
+background-color:#FFFFFF;;
 }
