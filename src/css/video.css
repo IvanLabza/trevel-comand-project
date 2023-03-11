@@ -1,0 +1,14 @@
+.hero-video {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.hero-video-list {}
+
+.hero-video-content {
+    background-image: url(../img/play.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 134px;
+}

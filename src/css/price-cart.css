@@ -1,23 +1,129 @@
-.prise {}
 
-.conteiner {}
+.prise {
 
-.prise-header {}
+}
 
-.prise-link {}
 
-.prise-list {}
+.prise-header {
+font-weight: 700;
+font-size: 24px;
+line-height: 1.2;
+color: #0499DD;
+}
 
-.prise-list-content {}
+.prise-link {
+font-weight: 500;
+font-size: 12px;
+line-height: 1.25;
+text-decoration-line: underline;
+color: #282828;
+}
 
-.prise-list-title {}
+.prise-list-content:nth-child(1) {
+background-repeat: no-repeat;
+border-radius: 10px;
+background-size:cover ;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%), url(../img/pc-bg-1.png);
+}
 
-.prise-list-subtitle {}
+.prise-list-content:nth-child(2) {
+background-repeat: no-repeat;
+border-radius: 10px;
+background-size: cover;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%), url(../img/pc-bg-2.png);
+}
 
-.prise-list-time {}
+.prise-list-content:nth-child(3) {
+background-repeat: no-repeat;
+border-radius: 10px;
+background-size: cover;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%), url(../img/pc-bg-3.png);
+}
 
-.prise-list-prise {}
+.prise-list-content:nth-child(4) {
+background-repeat: no-repeat;
+border-radius: 10px;
+background-size: cover;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%), url(#);
+}
 
-.prise-list-text {}
+.prise-flex{
+display: flex;
+gap: 15.22px;
+margin-bottom: 20px;
+}
 
-.prise-list-link {}
+.prise-list-content {
+max-width: 360px;
+padding-top: 211px;
+padding-bottom: 42px;
+}
+
+.prise-list{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.prise-first-flex{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 90px;
+}
+
+.prise-list-title {
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #FFFFFF;
+margin-bottom: 2px;
+padding-left: 16px;
+
+}
+
+.prise-list-subtitle {
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+color: #FFC700;
+padding-left: 16px;
+margin-bottom: 10px;
+}
+
+
+.prise-list-time {
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #FFFFFF;
+padding-left: 16px;
+}
+
+.prise-list-prise {
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #FFFFFF;
+}
+
+.prise-list-text {
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #FFFFFF;
+padding-left: 16px;
+margin-bottom: 32px;
+}
+
+.prise-list-link {
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+color: #FFFFFF;
+background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+padding: 12px 43px;   
+border-radius: 40px;
+margin-left: 16px;
+
+}

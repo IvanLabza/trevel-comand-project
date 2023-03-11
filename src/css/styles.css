@@ -15,6 +15,7 @@
 @import url('./rewiews.css');
 @import url('./tape-trevel.css');
 
+
 /*-------------------global-------------------*/
 
 .conteiner{
@@ -38,4 +39,17 @@ padding-right: 15px;
 
 body{
 font-family: 'Montserrat', sans-serif;
+}
+
+.bg{
+margin: 0 auto;
+max-width: 1440px;
+background:  url(../img/hero-bg.png);
+background-position: center top;
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+body{
+background-color:#FFFFFF;;
 }
