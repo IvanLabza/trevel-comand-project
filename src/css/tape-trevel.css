@@ -12,21 +12,26 @@
   padding-bottom: 150px;
 }
 
-.trevel-list {
-  gap: 20px;
+.trevel-tape-list {
+  column-gap: 20px;
   display: flex;
   flex-wrap: wrap;
 
   justify-content: center;
-  align-items: center;
 }
-.trevel-item {
+.maim-tape-trevel {
+  display: flex;
+}
+.trevel-tape-item {
   flex-basis: calc((100% - 20px) / 2);
   margin-bottom: 40px;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+
+  max-width: 550px;
 }
 
-.trevel-title {
+.trevel-tape-title {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
@@ -36,28 +41,38 @@
   color: #0499dd;
   margin-bottom: 90px;
 }
-.trevel-subject {
+.trevel-tape-desc {
+  display: inline-block;
+}
+.tevel-tape-img {
+  display: inline-block;
+  width: 75px;
+  height: 74px;
+  margin-right: 20px;
+}
+.trevel-tape-subject {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.22;
 
   color: #0499dd;
   margin-bottom: 10px;
 }
-.trevel-text {
+
+.trevel-tape-text {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 1.21;
   color: #282828;
 
   max-width: 455px;
   display: inline-block;
 }
-.trevel-content {
+.tape-content {
   margin: auto;
 }
 .trevel-content-text {
@@ -65,13 +80,14 @@
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 1.21;
   text-align: center;
 
   color: #282828;
   margin-left: auto;
   margin-right: auto;
   max-width: 550px;
+  margin-top: 0;
 }
 .trevel-button {
   text-align: center;
